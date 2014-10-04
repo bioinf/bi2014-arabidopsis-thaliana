@@ -1,0 +1,2 @@
+Command line: [exonerate --model protein2genome amino_acid_seq_fasta_file/sample-proteins.fa at_genome/all_chr.fna --percent 85 --bestn 10 --exhaustive yes]
+Hostname: [raian-Rev-1-0]
