@@ -1,0 +1,5 @@
+Repeats discovered only by RM:
+intersectBed -a RM/all_chr.fna.out.gff -b RM+RS/all_chr.fna.out.gff -v > only_RM.out
+
+Vice versa:
+intersectBed -b RM/all_chr.fna.out.gff -a RM+RS/all_chr.fna.out.gff -v > RM+RS.out
