@@ -1,0 +1,6 @@
+build_lmer_table -sequence ../at_genome/all_chr.fna -tandem 4000 -freq -v ../lmer_table.txt
+RepeatScout -sequence all_chr.fna -freq freq.out -output test
+filter-stage-1.prl test > filtered.out
+RepeatMasker -pa 4 -s -lib filtered.out -gff -cutoff 200 -noisy all_chr.fna 
+cat filtered.out  | filter-stage-2.prl --cat=all_chr.fna.out > repeats_final.out
+

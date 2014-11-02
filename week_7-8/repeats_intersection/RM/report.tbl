@@ -1,0 +1,59 @@
+==================================================
+file name: all_chr.fna              
+sequences:             5
+total length:  119146348 bp  (118960744 bp excl N/X-runs)
+GC level:         36.03 %
+bases masked:   19681378 bp ( 16.52 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements         9343      9336554 bp    7.84 %
+   SINEs:              720       122203 bp    0.10 %
+   Penelope              0            0 bp    0.00 %
+   LINEs:             1969      1227354 bp    1.03 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex          0            0 bp    0.00 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B           0            0 bp    0.00 %
+     L1/CIN4          1885      1204988 bp    1.01 %
+   LTR elements:      6654      7986997 bp    6.70 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia        2484      1761459 bp    1.48 %
+     Gypsy/DIRS1      3480      6147102 bp    5.16 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons       9486      5292561 bp    4.44 %
+   hobo-Activator     1381       489451 bp    0.41 %
+   Tc1-IS630-Pogo      895       225448 bp    0.19 %
+   En-Spm                0            0 bp    0.00 %
+   MuDR-IS905            0            0 bp    0.00 %
+   PiggyBac              0            0 bp    0.00 %
+   Tourist/Harbinger   455       167547 bp    0.14 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles          0            0 bp    0.00 %
+
+Unclassified:         3922      2217427 bp    1.86 %
+
+Total interspersed repeats:    16846542 bp   14.14 %
+
+
+Small RNA:             397        63527 bp    0.05 %
+
+Satellites:           3277      1034779 bp    0.87 %
+Simple repeats:      34585      1374117 bp    1.15 %
+Low complexity:       8749       424121 bp    0.36 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be arabidopsis   
+RepeatMasker version open-4.0.5 , sensitive mode
+                                 
+run with rmblastn version 2.2.27+
+RepBase Update 20140131, RM database version 20140131

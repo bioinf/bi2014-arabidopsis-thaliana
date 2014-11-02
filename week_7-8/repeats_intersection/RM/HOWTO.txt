@@ -1,0 +1,1 @@
+RepeatMasker -pa 4 -s -species arabidopsis -gff -cutoff 200 -noisy all_chr.fna
