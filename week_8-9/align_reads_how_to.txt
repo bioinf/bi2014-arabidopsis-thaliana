@@ -1,0 +1,10 @@
+bowtie2-build genome.fa arabidopsis                            //build index
+
+bowtie2 -x arabidopsis -U ../reads/chi2_r1.fq -S aligned.sam   //perform alignment 
+ggf
+24873372 reads; of these:
+  24873372 (100.00%) were unpaired; of these:
+    5420761 (21.79%) aligned 0 times
+    14327301 (57.60%) aligned exactly 1 time
+    5125310 (20.61%) aligned >1 times
+78.21% overall alignment rate

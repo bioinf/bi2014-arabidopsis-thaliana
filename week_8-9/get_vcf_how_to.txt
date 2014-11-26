@@ -1,0 +1,6 @@
+samtools idxstats sorted.bam | cut -f 1 > chrs.txt                       //get chromosomes names from sorted and indexed .bam alignment file
+samtools view -bh sorted.bam "gi|240254421|ref|NC_003070.9|" > chr1.bam  //cut chromosome 1 
+samtools sort chr1.bam chr1_sorted                                       //sort chromosome 1 .bam file
+samtools index chr1_sorted.bam                                           //index chromosome 1 .bam file
+freebayes -f ref.fna chr1_sorted.bam > chr1_var.vcf                      //get VCF output from sorted and indexed chr1_sorted.bam file using freebayes instead of samtools 
+
