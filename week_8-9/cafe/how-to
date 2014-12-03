@@ -1,0 +1,4 @@
+1) load -i cafe.dat
+2) tree <Newick-дерево>
+3) lambda -s
+4) report results.cafe
